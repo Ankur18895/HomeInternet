@@ -36,19 +36,19 @@
                      <h1>Contact us Now! We're Listening</h1>
                      <form id="contactForm" name="popup_contact" method="POST" data-netlify="true">
                          <div class="form-group">
-                             <input class="form-control" type="text" placeholder="Your Name *" required>
+                             <input class="form-control" name="name" type="text" placeholder="Your Name *" required>
                          </div>
                          <div class="form-group">
-                             <input class="form-control" type="email" placeholder="Your Email *" required>
+                             <input class="form-control" name="email" type="email" placeholder="Your Email *" required>
                          </div>
                          <div class="form-group">
-                            <input class="form-control" type="tel" placeholder="Your Phone *" required>
+                            <input class="form-control" name="phone" type="tel" placeholder="Your Phone *" required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Your Postal Code *" required>
+                            <input class="form-control" name="postal" type="text" placeholder="Your Postal Code *" required>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" placeholder="Your Message *" required>
+                            <input class="form-control" name="message" placeholder="Your Message *" required>
                         </div>
                          <button type="submit" class="btn text-uppercase enabled">Send Message</button>
                      </form>
@@ -354,31 +354,31 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <!-- Name input-->
-                                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required />
+                                    <input class="form-control" name="name" type="text" placeholder="Your Name *" required />
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                                 </div>
                                 <div class="form-group">
                                     <!-- Email address input-->
-                                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required />
+                                    <input class="form-control" name="email" type="email" placeholder="Your Email *" required />
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                 </div>
                                 <div class="form-group">
                                     <!-- refer name input-->
-                                    <input class="form-control" id="name" type="text" placeholder="Your referral's Name *" required />
+                                    <input class="form-control" name="nameRef" type="text" placeholder="Your referral's Name *" required />
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                 </div>
                                 <div class="form-group mb-md-0">
                                     <!-- refer Phone number input-->
-                                    <input class="form-control" id="phone" type="tel" placeholder="Your referral's Phone number*" required />
+                                    <input class="form-control" name="phone" type="tel" placeholder="Your referral's Phone number*" required />
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group form-group-textarea mb-md-0">
                                     <!-- Message input-->
-                                    <textarea class="form-control" id="message" placeholder="Your Message"></textarea>
+                                    <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                 </div>
                             </div>
@@ -505,7 +505,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Canada Telecom Deals 2022</div>
                     <!--
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
